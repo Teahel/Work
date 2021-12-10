@@ -53,3 +53,9 @@ systemctl stop nginx.service    结束nginx
 
 systemctl restart nginx.service    重启nginx
 ```
+
+下方命令可以知道nginx.conf 是否配置成功以及部署位置
+
+```
+./nginx -t
+```
